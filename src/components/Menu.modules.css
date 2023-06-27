@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3f3d3d;
+  padding: 1em;
+  align-items: center;
+  padding-right: 100px;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.item {
+  display: flex;
+  margin-right: 1em;
+  color: white;
+  align-items: center;
+}
+
+.item:hover {
+    color: #efa118;
+}
