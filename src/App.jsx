@@ -5,6 +5,7 @@ import Projects from "./components/pages/Projects";
 import NovoProjeto from "./components/pages/NovoProjeto";
 import Contato from "./components/pages/Contato";
 import Footer from "./components/Footer";
+import Project from "./components/pages/Project";
 
 import Container from "./components/layout/Container";
 
@@ -23,6 +24,7 @@ function App() {
           />
           <Route path="/components/pages/NovoProjeto" element={<NovoProjeto />} />
           <Route path="/components/pages/Contato" element={<Contato />} />
+          <Route path="/project/:id" element={<Project />} />
         </Routes>
       </BrowserRouter>
       </Container>
